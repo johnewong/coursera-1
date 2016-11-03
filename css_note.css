@@ -1,4 +1,8 @@
-
+	* {
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+	}
 	h3 {
 		text-align: center;
 		color: #E10F79
@@ -7,12 +11,6 @@
 	h1 {
 		color: blue;
 		text-align: center;
-	}
-	#header2 h1 {
-		color: red;
-	}
-	div > p {
-		color: grey;
 	}
 	#id1 {
 		color: #C91165
@@ -25,7 +23,12 @@
 	#section2  li {
 		list-style: none;
 	}
-	a:link, a:visited {
+	#link {
+		font-weight: bold;
+		font-size: 24px;
+		color: yellow;
+	}
+	#section2 a:link, a:visited {
 		text-decoration: none;
 		background-color: #5B5B5B;
 		border:2px solid blue;
@@ -35,8 +38,8 @@
 		text-align: center;
 		margin-bottom: 1px;
 	}
-	a:hover, a:active {
-		background-color: red;
+	#section2 a:hover, a:active {
+		background-color: black;
 		color: purple;
 	}
 
@@ -68,4 +71,58 @@
     #tr2 td:nth-child(1) {
     	color:white;
     	background-color: #FF9898;
+    }
+    #part1 {
+    	background-color: yellow;
+    	color: black
+    }
+    #box {
+
+    	border: 20px solid;
+    	padding: 20px;
+    	background-color: blue;
+    	margin:20px;
+    	box-sizing: border-box;
+    	width: 500px
+    }
+    #content {
+    	background-color: green;
+    	color: black;
+    	text-align: center;
+    }
+    #section7 #part2 {
+    	background-color: blue;
+    	color: black;
+    	padding: 0;
+    	margin: 30px;
+    	font-size: 24px;
+    	font-weight: bold;
+    }
+    #section7 #part3 {
+    	background-color: green;
+		padding: 0;
+    	margin: 20px;
+    	font-size: 24px;
+    	font-weight: bold;
+    }
+    #section7 #part4 {
+    	font-size: 20px;
+    	width: 350px;
+    	background-color: yellow;
+    	height: 100px;
+    	border:5px solid;
+    	overflow: scroll;
+    	float: left;
+    	margin-right: 20px;
+    }
+    #section7 #part5 {
+    	font-size: 20px;
+    	width: 100px;
+    	background-color: yellow;
+    	height: 100px;
+    	border:5px solid;
+    	float: left;
+    	overflow: hidden;
+     	margin-right: 50px;
+     	margin-left: 30px;
     }

@@ -23,13 +23,17 @@
 <section id="section2">
 	<h3>Links</h3>
 	<p>
-		<a href="http://www.facebook.com" target="_blank" title="facebook">"target=_blank" to open in another tab</a>
+		<a href="http://www.facebook.com" target="_blank" title="facebook"
+		id="link">"target=_blank" to open in another tab</a>
 	</p>
   <ul>use link to jump to some part of the page
 	<li><p><a href="#section1">#section1_character entity</a></p></li>
 	<li><p><a href="#section2">#section2_Links</a></p></li>
 	<li><p><a href="#section3">#section3_Display images</a></p></li>
 	<li><p><a href="#section4">#section4_Css</a></p></li>
+	<li><p><a href="#section5">#section5_Selectors</a></p></li>
+	<li><p><a href="#section6">#section6_Conflict in Css</a></p></li>
+	<li><p><a href="#section7">#section7_Box Model</a></p></li>
   </ul>
 <hr>
 </section>
@@ -85,11 +89,43 @@
 	<p id="id2">The higher score the more specificity </p>
 	<p id="id2">Cascade: origin,merge;inheritance & Specificity</p>
     <p><a id="id1">!important</a> should be avoided to use</p>
-
+<hr>
 </section>
 
-
-
+<section id="section7">
+	<h3>
+		Box Model
+	</h3>
+	<div id="part1">
+	<div id="box">
+		<p id="content">
+			This is a Box<br>
+			Margin:	20px
+			,Border: 20px
+			,padding: 20px<br>	
+			500px width from border to border
+		</p>
+	</div>
+	<p>The edge of margin</p>
+	</div>
+	<div id="part2">
+		* {<br>
+		box-sizing: border-box;<br>
+		 }
+		 <p>can be apply to all html</p>
+	</div>
+	<div id="part3">
+		Two box have different margin, the bigger one win.<br>
+		Which means two boxs with horizental margin touch each other will combine and sum up the margin of each.
+	</div>
+	<div id="part4">
+    If the content is very long, but the height of the box is no enough, the content will be overflow;
+	</div>
+	<div id="part5">
+    If the content is very long, but the height of the box is no enough, the content will be overflow;
+	</div>
+</section>
+<hr>
 
 
 
