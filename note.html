@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+<link rel="stylesheet" type="text/css" href="css_note.css">
+</head>
+<body>
+
+<div id="header1">
+    <h1>Html</h1>
+    <p>This is for descriotion use</p>
+</div>
+
+<section id="section1">
+	<h3>character entity</h3>
+	<p>quote: &quot</p>
+    <p>less than: &lt;</p>
+	<p>greater than: &gt;</p>
+	<p>symbol Ampersand: &amp;</p>
+<hr>
+</section>
+
+<section id="section2">
+	<h3>Links</h3>
+	<p>
+		<a href="http://www.facebook.com" target="_blank" title="facebook">"target=_blank" to open in another tab</a>
+	</p>
+  <ul>use link to jump to some part of the page
+	<li><p><a href="#section1">#section1_character entity</a></p></li>
+	<li><p><a href="#section2">#section2_Links</a></p></li>
+	<li><p><a href="#section3">#section3_Display images</a></p></li>
+	<li><p><a href="#section4">#section4_Css</a></p></li>
+  </ul>
+<hr>
+</section>
+
+<section id="section3">
+	<h3>Display images</h3>
+	<img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTfv6tfLQyjOE_nF5qLrWbjdmVoAUp9LJj6KVdVcWm1vWo9TjjG" alt="This is a alt" width="400" height="300">
+	<p>It's good to use the width and height attribute in the &lt;img&gt;, even though no requied
+	</p> 
+<hr>
+</section>
+
+<div id="header2">
+	<h1>Css</h1>	
+</div>
+
+<section id="section4">
+	<h3>Selectors</h3>
+	<p>
+		<a id="id1">div > p</a> 
+			{<br>color: grey;<br>}
+	    	<p id="id2">only will apply to direct child element.</p>
+	</p>
+	<p>
+		<a id="id1">div p</a> 
+			{<br>text-align: center;<br>}<p id="id2">only if the &lt;p&gt; element is one of &lt;div&gt;</p>
+	</p>
+<hr>
+</section>
+
+<section id="section5">
+	<h3>Pseudo-class selector</h3>
+	<p>
+		<a href="css_note.css">Go to see  the css code</a>
+	</p>
+<hr>
+</section>
+
+<section id="section6">
+	<h3>Conflict in css</h3>
+	<table border="2px">
+	  <tr>
+		<th>/</th>
+		<th>style=".."</th>
+		<th>ID</th>
+		<th>Class</th>
+		<th>&lt;p&gt; or other of element</th>
+	  </tr>
+	  <tr id="tr2">
+		<td>score</td><td>*</td><td>*</td><td>*</td><td>*</td>
+	  </tr>
+	</table>
+	<p id="id2">The higher score the more specificity </p>
+	<p id="id2">Cascade: origin,merge;inheritance & Specificity</p>
+    <p><a id="id1">!important</a> should be avoided to use</p>
+
+</section>
+
+
+
+
+
+
+</body>
+</html>
