@@ -34,6 +34,10 @@
 	<li><p><a href="#section5">#section5_Selectors</a></p></li>
 	<li><p><a href="#section6">#section6_Conflict in Css</a></p></li>
 	<li><p><a href="#section7">#section7_Box Model</a></p></li>
+	<li><p><a href="#section8">#section8_Background Property</a></p></li>
+	<li><p><a href="#section9">#section9_Position Floating</a></p></li>
+	<li><p><a href="#section10">#section10_Relative & Absolute Positioning</a></p></li>
+	<li><p><a href="#section11">#section11_Media Queries </a></p></li>
   </ul>
 <hr>
 </section>
@@ -86,6 +90,12 @@
 		<td>score</td><td>*</td><td>*</td><td>*</td><td>*</td>
 	  </tr>
 	</table>
+	<p>
+		#tr2 td:nth-child(1) {<br>
+    	color:white;<br>
+    	background-color: #FF9898;<br>
+    }
+	</p>
 	<p id="id2">The higher score the more specificity </p>
 	<p id="id2">Cascade: origin,merge;inheritance & Specificity</p>
     <p><a id="id1">!important</a> should be avoided to use</p>
@@ -124,10 +134,73 @@
 	<div id="part5">
     If the content is very long, but the height of the box is no enough, the content will be overflow;
 	</div>
+<hr>
 </section>
+
+<section id="section8">
+	<h3>
+		Background Property
+	</h3>
+	<div id="background">
+	This a background
+	</div>
+<hr>
+</section>
+
+<section id="section9">
+	<h3>Position Floating</h3>	
+  <div id="container">
+	<div id="box1">
+		box1
+	</div>
+	<div id="box2">
+		box2
+	</div>
+	<div id="box3">
+		This is the content for box3
+	</div>
+	<div id="box4">
+		This is the content for box4
+	</div>    
+  </div>
 <hr>
 
+<section id="section10">
+<h3>Relative & Absolute Positioning</h3>
+ <div id="container2">
+	<div id="box5">
+	Relative box,the original position still exist 
+	</div>
+	<div id="box6">
+	Offsetting the relative container element offsets its contents/child as well
+	</div>
+	<div id="box7">
+	Absolute is relative to closest ancestor which has positioning set to non-static (absolute/relative).
+	</div>
+	<div id="box8">
+	Rest of the elements behave as the Absolute element doesn't exist.
+	</div>
+ </div>
+<hr>
+</section>
+<br>
+<section id="section11">
+	<div>
+		<h3>
+			Media Queries
+		</h3>
+		<p>
+		<a id="id1">@media</a> (<a id="id3">min-width</a><a id="id1">:</a> 922px) <a id="id1">and</a> (<a id="id3">max-width</a><a id="id1">:</a>1199) <br>{.....<br>}
+		</p>
+	</div>
+<hr>
+</section>
 
+<section id="section12">
+	<h3>
+		
+	</h3>
+</section>
 
 </body>
 </html>

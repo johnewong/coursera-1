@@ -20,6 +20,9 @@
 		font-style: italic;
 		font-weight: bold;
 	}
+	#id3 {
+		color: #0673E5;
+	}
 	#section2  li {
 		list-style: none;
 	}
@@ -121,8 +124,84 @@
     	background-color: yellow;
     	height: 100px;
     	border:5px solid;
-    	float: left;
+    	/*float: left;*/ 
     	overflow: hidden;
      	margin-right: 50px;
      	margin-left: 30px;
     }
+    #section8 #background {
+    	background-color: lightblue;
+    	width: 500px;
+    	height: 400px;
+    	background: url('Montenegro.jpg') lightblue 
+    		no-repeat center;   	
+    }
+    #section9 #container {
+    	background-color: #1562DE;
+    	width: 500px;
+    	height: 300px;
+    }
+	#section9 #box1 {
+		background-color: #00FF91;
+		width: 80px;
+		height: 80px;
+		border: 1px solid;
+        margin-right: 10px;
+	}
+	#section9 #box2 {
+		width: 80px;
+		height: 80px;
+		border: 1px solid;
+        margin-right: 10px;		
+		background-color: #F15ED6;
+	}
+	#section9 #box3 {
+		width: 50%;
+		height: 80px;
+		border: 1px solid;
+        margin-right: 0px;
+		background-color: #784141;
+		float: left;
+	}
+	#section9 #box4 {
+		width: 50%;
+		height: 80px;
+		border: 1px solid;		
+        margin-right: 0px;	
+		background-color: #DDAD7A;
+		float: right;		
+	}
+	#section10 #container2 {
+		background-color: yellow;
+		position: relative;
+		top: 10px;
+		color: white;
+		font-weight: bold;
+	} 
+	#section10 #box5 {
+		background-color: black;
+		width: 150px;
+		height: 150px;
+		position: relative;
+		top: 100px;
+		right: -180px;		
+	}
+	#section10 #box6 {
+		background-color: grey;
+		width: 150px;
+		height: 150px;
+	}
+	#section10 #box7 {
+		background-color: #4C2D6A;	
+		width: 150px;
+		height: 150px;		
+		position: absolute;
+		top: 0px;
+		left: 10px;
+	}
+	#section10 #box8 {
+		background-color: #2A1E8E;
+		width: 150px;
+		height: 150px;
+	}
+	
